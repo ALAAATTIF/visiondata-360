@@ -1,0 +1,5 @@
+# Ignorer les fichiers de logs et de configuration contenant des secrets
+*.json
+!package.json
+.env
+node_modules/
